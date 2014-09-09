@@ -56,29 +56,8 @@ p {
 a {
     color: #7b7b7b;
     word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
 
  hr {
     display: block;
@@ -223,7 +202,7 @@ a:after {
 #blue {
 	background: #3498db;
 	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-bottom: 20px;
 }
 
 #blue h4 {
@@ -291,34 +270,6 @@ a:after {
 	color: #01dfa5;
 	font-size: 12px;
 	padding: 5px;
-}
-
-/***** MODAL CONTACT *****/
-.modal-content {
-	border-radius: 0px;
-
-}
-
-.modal-header {
-	background: #bdbdbd;
-	color: white;
-}
-
-.modal-header h4 {
-	font-weight: 700;
-}
-
-.modal-body {
-	background: #f2f2f2;
-    font-family: "Lato";
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-}
-
-.modal-footer {
-	background: #f2f2f2;
-	margin-top: 0px; 
 }
 
 /* ==========================================================================
